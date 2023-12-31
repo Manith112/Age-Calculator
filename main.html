@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./age-calculator-app-main/assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="main.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+        <!-- day fill  -->
+        <div class="born">
+            <p class="date" id="date-day">day</p>
+            <input type="number" placeholder="DD" id="day" class="fill-day">
+            <p class="invalid-day" >Must be a valid day</p>
+            <p class="empty-day">This field is required</p>
+            </div>
+        <!-- month fill  -->
+        <div class="born">
+            <p class="date" id="date-month">month</p>
+            <input type="number" placeholder="MM" id="month" class="fill-month">
+            <p class="invalid-month">Must be a valid month</p>
+            <p class="empty-month">This field is required</p>
+            </div>
+            <!-- year fill  -->
+            <div class="born">
+                <p class="date" id="date-year">year</p>
+                <input type="number" placeholdeR="YYYY" id="year" class="fill-year">
+                <p class="invalid-year">Must be a valid past</p>
+                <p class="empty-year">This field is required</p>
+                </div>
+
+            </div>
+            
+       
+           
+      
+        <div class="row">
+            <hr>
+            <div class="arrow">
+                <img onclick="Next()" id="button" src="./age-calculator-app-main/assets/images/icon-arrow.svg" alt="">
+            </div>
+        </div>
+        <!-- <div class="output"> -->
+            <div class="output-num">
+                <div class="para-first"></div>
+                <div class="para-second"></div>
+                <p id="result-year"></p>
+                <h1>years</h1>
+            </div>
+            <div class="output-num">
+                <div class="para-first"></div>
+                <div class="para-second"></div>
+                <p id="result-month"></p>
+                <h1>months</h1>
+            </div>
+            <div class="output-num">
+                <div class="para-first"></div>
+                <div class="para-second"></div>
+                <p id="result-day"></p>
+                <h1>days</h1>
+            <!-- </div> -->
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
